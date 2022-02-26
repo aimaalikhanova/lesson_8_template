@@ -1,0 +1,68 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Taviraj&display=swap");
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "Lato";
+	color: #424551;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.createx h2 {
+	color: #1e212c;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.5;
+	margin-bottom: 8px;
+}
+h1 {
+	font-size: 46px;
+	color: #1e212c;
+	text-transform: capitalize;
+	font-weight: 900;
+	line-height: 1.3;
+	margin-bottom: 40px;
+}
+ul {
+	max-width: 390px;
+	margin-bottom: 48px;
+}
+li {
+	line-height: 1.625;
+	margin-bottom: 12px;
+	padding-left: 32px;
+	min-height: 30px;
+}
+li::before {
+	content: "";
+	background: url("../img/check.png") 0px 10px / 16px no-repeat;
+	width: 16px;
+	height: 26px;
+	display: inline-block;
+	margin: 0 16px 0 -32px;
+}
+.button {
+	max-width: 161px;
+	color: #ffffff;
+	line-height: 3;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	text-align: center;
+}
+.createx {
+	margin-bottom: 100px;
+}
+.maple {
+	font-family: "Taviraj", serif;
+	font-size: 36px;
+	color: #333333;
+}
+
+.maple h2::after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 65px;
+	margin: 8px 0 0 0;
+	background-color: #333333;
+}
